@@ -1,4 +1,5 @@
-
+@"
+# Visual Studio
 .vs/
 .vscode/
 bin/
@@ -8,6 +9,20 @@ obj/
 *.pdb
 *.suo
 *.user
+*.userosscache
+.idea/
 packages/
+*.nupkg
+
+# Configuration - ignore ทั้งหมด
+appsettings.json
+appsettings.*.json
+
+# Template file (สำหรับ developer คนใหม่)
+!appsettings.example.json
+
+# Environment & Database
 .env
-appsettings.local.json
+*.db
+*.sqlite
+"@ | Out-File -FilePath .gitignore -Encoding utf8 -Force
