@@ -1,1 +1,13 @@
-﻿
+
+.vs/
+.vscode/
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+packages/
+.env
+appsettings.local.json
