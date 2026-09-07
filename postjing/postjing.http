@@ -1,0 +1,16 @@
+@postjing_HostAddress = http://localhost:5189
+GET {{HostAddress}}/api/Pokemon/GetPokemons
+Accept: application/json
+
+POST {{HostAddress}}/api/Pokemon/CreatePokemon
+Content-Type: application/json
+
+PUT {{HostAddress}}/api/Pokemon/EditPokemon
+Content-Type: application/json
+
+DELETE {{HostAddress}}/api/Pokemon/DeletePokemon?pokemonId=1
+
+GET {{postjing_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
